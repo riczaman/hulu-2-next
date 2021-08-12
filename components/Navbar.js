@@ -1,8 +1,11 @@
 const Navbar = () => {
+    const [genres, setGenres] = useState([]);
     return (
-        <div>
-            
-        </div>
+        <nav>
+            <div>
+
+            </div>
+        </nav>
     )
 }
 
