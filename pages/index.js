@@ -8,7 +8,6 @@ export default function Home() {
         <title>Hulu 2.0</title>
         <link rel="icon" href="/hulu.ico" />
       </Head>
-      {/* Header */}
       <Header />
       {/* Nav */}
       {/* Content */}

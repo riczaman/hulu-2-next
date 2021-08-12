@@ -10,10 +10,14 @@ import { BadgeCheckIcon,
 
 const Header = () => {
     return (
-        <header>
-            <div>
+        <header className="flex flex-col sm:flex-row m-5 items-center justify-between h-auto">
+            <div className="flex flex-grow justify-evenly max-w-2xl">
                 <HeaderItem title="Home" Icon={HomeIcon}/>
-
+                <HeaderItem title="Trending" Icon={LightningBoltIcon}/>
+                <HeaderItem title="Verified" Icon={BadgeCheckIcon}/>
+                <HeaderItem title="Collections" Icon={CollectionIcon}/>
+                <HeaderItem title="Search" Icon={SearchIcon}/>
+                <HeaderItem title="Users" Icon={UserIcon}/>
                 {/* Icons */}
             </div>
             <div>
