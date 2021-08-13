@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header'
+import Navbar from '../components/Navbar'
+import Content from '../components/Content'
 
 export default function Home() {
   return (
@@ -9,8 +11,8 @@ export default function Home() {
         <link rel="icon" href="/hulu.ico" />
       </Head>
       <Header />
-      {/* Nav */}
-      {/* Content */}
+      <Navbar />
+      <Content /> 
     </div>
   )
 }
