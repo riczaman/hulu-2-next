@@ -1,10 +1,8 @@
-import { useState } from "react"
 import { useRouter } from "next/router"
 import requests from "../utils/requests";
 
 const Navbar = () => {
     const router = useRouter(); 
-    const [genres, setGenres] = useState([]);
     return (
         <nav className="relative">
             <div className="last:pr-24 flex px-10 sm:px-20 whitespace-nowrap
